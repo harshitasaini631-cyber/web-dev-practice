@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rgba(red, green, blue, alpha)</title>
+
+    <style>
+        .box{
+           width:100px;
+           height:100px;
+           margin:10px;
+           display:inline-block;
+        }
+
+        .red { background: rgba(255,0,0,0.2);}
+        .green { background: rgba(0,255,0,0.5);}
+        .yellow { background: rgba(0,0,255,0.8);}
+        .blue { background: rgba(255,255,0,1);}
+
+        /* 0 -> fully transparent
+           1 -> fullt opaque */
+    </style>
+</head>
+<body>
+    <div class="box red">Box red</div>
+    <div class="box green">Box green</div>
+    <div class="box yellow">Box yellow</div>
+    <div class="box blue">Box blue</div>
+</body>
+</html>
