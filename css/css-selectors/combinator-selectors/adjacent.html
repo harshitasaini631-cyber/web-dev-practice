@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent selector(+)</title>
+
+    <style>
+        h2+p{  /*Selects the element that comes immediately after another.*/
+            color:red;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h2>Heading
+    </h2>
+    <p>Styled paragraph (immediately after h2)</p>
+    <p>not styled</p>
+</body>
+</html>
