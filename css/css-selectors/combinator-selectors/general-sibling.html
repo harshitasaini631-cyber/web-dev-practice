@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General sebling selectors(~)</title>
+
+    <style>
+        h2~p{
+            color:peru;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>heading</h2>
+    <p>styled para</p>
+    <p>styled para</p>
+    <div>
+        <p>Not styled (not a sibling)</p>
+    </div>
+</body>
+</html>
