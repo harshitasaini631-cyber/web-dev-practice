@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selector(>)</title>
+
+    <style>
+        div > p{
+            color: aqua;
+            font-size: larger;  /*Selects only the direct children of a specific element.*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Direct child - styled</p>
+    </div>
+
+    <section>
+        <p>Nested child - not styled</p>
+    </section>
+</body>
+</html>
