@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky position</title>
+
+    <style>
+        .box{
+            background-color: pink;
+            position: sticky;
+            padding: 10px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<!-- ● A mix of relative and fixed.
+● The element behaves like relative until you scroll past it, then it becomes fixed.
+● Useful for sticky headers or section titles. -->
+    <div class="box">Im sticky</div>
+    <div style = "height:1200px;">scroll down to see box stick at the top.</div>
+    
+</body>
+</html>
