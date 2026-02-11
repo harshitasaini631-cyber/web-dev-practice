@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed position</title>
+
+    <style>
+        .box{
+            width: 120px;
+            height: 50px;
+            background-color: orangered;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- The element is removed from the flow and positioned relative to the browser
+window.
+● It stays in place when you scroll the page. -->
+
+    <h2>Fixed positioning</h2>
+    <p>scroll down to see box stay in place</p>
+    <div style = "height:100px;"></div>
+    <div class="box">I am fixed</div>
+</body>
+</html>
