@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            opacity: 0.8;
+        }
+
+        .box1 {
+            background: red;
+            top: 40px;
+            left: 40px;
+            z-index: 1;
+        }
+
+        .box2 {
+            background: blue;
+            top: 70px;
+            left: 70px;
+            z-index: 2;
+        }
+
+        .box3 {
+            background: green;
+            top: 100px;
+            left: 100px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+
+    <!-- The z-index property controls the stacking order of elements on a web page — like
+deciding which layer sits on top when elements overlap. 
+
+How It Works:
+● Each positioned element (i.e., with position: relative, absolute, fixed, or sticky)
+gets placed on a layer.
+● z-index assigns a number to those layers.
+● Higher numbers appear on top of lower ones.
+
+z-index does not work on elements with position: static, When an
+element is position: static, it is not part of the stacking context.
+● No positioning = no stacking control.-->
+</body>
+</html>
+
+
