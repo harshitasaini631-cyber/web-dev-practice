@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content box</title>
+
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            padding: 30px;
+            border: 5px solid red;
+            margin: 20px;
+            background-color: #eee;
+            float: left;
+            text-align: center;
+        }
+
+        #content-box{
+            box-sizing: content-box;
+        }
+        #border-box{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="content-box">Content box</div><br>(looks wider)
+    <!-- Actual size = 200 (content) + 40 (padding) + 10 (border) = 250px 
+     Width and height only apply to the content.
+● Padding and border increase the total size.-->
+    <div class="box" id="border-box">Border box</div><br>(is 200px)
+    <!-- Actual size stays 200px total — padding and border are calculated within this. 
+     Width and height include padding and border.
+● So content area is automatically adjusted.-->
+</body>
+</html>
