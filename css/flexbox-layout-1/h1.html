@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block inline an inline-block</title>
+
+    <style>
+        #box1 {
+            display: block;
+            border: solid 2px black;
+        }
+
+        #box2 {
+            display: inline;
+            border: solid 2px black;
+        }
+
+        #box3 {
+            display: inline-block;
+            width: 100px;
+            border: solid 2px black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Takes full width of parent Starts on a new line -->
+    <div id="box1"> block box1</div>
+
+    <!-- Takes only as much space as needed .Stays in the same line -->
+    <div id="box2">inline box2</div>
+
+    <!-- Like inline, but allows box style.Stays in the same line,supports width/height -->
+    <div id="box3">inline-block box3</div>
+</body>
+
+</html>
