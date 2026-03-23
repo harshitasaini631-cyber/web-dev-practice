@@ -1,0 +1,95 @@
+/* justify-content: flex-start => items start from the left(default) */
+
+/* .container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}    */
+
+
+/* justify-content: flex-end => items align to the right */
+
+/* .container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}     */
+
+/* justify-content: center => items align to the center*/
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}     */
+
+
+/* justify-content: space-between => Equal space between items*/
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}     */
+
+
+/* justify-content: space-between => Equal space around items (half-space on ends)*/
+
+/* .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}     */
+
+
+/* justify-content: space-between => Equal space between and around all items css*/
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.item{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 20px;
+}    
+
+
