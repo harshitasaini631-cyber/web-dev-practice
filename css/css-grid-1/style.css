@@ -1,0 +1,99 @@
+/* Tells the browser to treat this element as a grid container. */
+
+/* .conatiner{
+    display: grid;
+    border: 2px solid black;
+} */
+
+/* Grid-template-columns : Defines how many
+columns a grid should have and how wide each
+column should be.
+It specifies the number (and the widths)
+of columns in a grid layout. */
+
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); using repeat function
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+} */
+
+/* giving different sizes to each box */
+/* .container{
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+} */
+
+
+/* using grid-template-rows; this is for height instead of width as we did in column */
+/* .container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr); 
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+} */
+
+/* gap : adds apce between grid items . in both column and rows */
+/* .container{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr; 
+    gap: 20px;
+    border: 2px solid black;
+    
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+} */
+
+/* row gap. defines vertical space bw rows */
+/* .container{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr; 
+    height: 400px;
+    row-gap: 20px;
+    border: 2px solid black;
+    
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+} */
+
+
+/* column- gap */
+.container{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr; 
+    height: 400px;
+    column-gap: 20px;
+    border: 2px solid black;
+    
+}
+.container div{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    padding: 20px;
+}
