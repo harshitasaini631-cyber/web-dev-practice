@@ -1,0 +1,38 @@
+<!-- CSS units are divided into two main categories based on how they behave :
+● Absolute Units.
+● Relative Units.
+
+Absolute units are fixed sizes.
+They do not change no matter what screen size or device you’re using.
+Example : Rulers in real life — 1 cm is always 1 cm, no matter where you are.
+
+1. px (Pixels): A pixel is the tiniest dot your screen can show.
+
+It's the most commonly used absolute unit in web design.
+Example: font-size: 16px; → sets the text size to 16 screen dots.
+
+2. in (inches): 1 inch is the same as on a physical ruler.
+Mostly used for print styles, not for screens.
+Example: width: 2in; → makes an element 2 inches wide when printed.
+
+3. cm (Centimeter): 1 cm = 10 millimeters.
+
+Also used mainly for printing, not screen design.
+Example: margin: 1cm; → gives 1 cm space around the
+element.
+
+4. mm (Millimeters): Even smaller than cm — 10 mm = 1 cm.
+
+Rarely used, but good for very precise print layouts.
+Example: padding: 5mm; → adds 5 mm space inside an element.
+
+5. pt (Points): 1 point = 1/72 of an inch.
+
+Common in Word documents and print design.
+Example: font-size: 12pt; → standard paragraph text size in
+documents.
+
+6. pc (Picas): 1 pica = 12 points.
+
+Used in typesetting (like newspapers or books).
+Very rare in web design.-->
