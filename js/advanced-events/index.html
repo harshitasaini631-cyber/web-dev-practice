@@ -13,6 +13,11 @@
         document.addEventListener("keydown", (e) => {
             console.log(e.key);
         });
+
+        //form event
+        form.addEventListener("submit", (e) => {
+            e.preventDefault(); // stops page refresh
+        });
     </script>
 </body>
 
