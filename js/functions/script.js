@@ -5,7 +5,7 @@ function greet(name, callback) {
 }
 
 function sayBye() {
-    console.log("Goodbye!");
+    console.log("How are you");
 }
 
 greet("Harshita", sayBye);
