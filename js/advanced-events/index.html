@@ -18,6 +18,10 @@
         form.addEventListener("submit", (e) => {
             e.preventDefault(); // stops page refresh
         });
+
+        //bubbling
+        parent.addEventListener("click", () => console.log("Parent"));
+        child.addEventListener("click", () => console.log("Child"));
     </script>
 </body>
 
